@@ -16,6 +16,10 @@ class BookFormTableVC: UITableViewController {
     @IBOutlet weak var genreTxtField: UITextField!
     @IBOutlet weak var lengthTxtField: UITextField!
     
+    struct PropertyKeys {
+        static let unwind = "UnwindToBookTable"
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,7 +34,12 @@ class BookFormTableVC: UITableViewController {
     }
 
     func updateView(){
+        guard let book = book else {return}
         
+        titleTxtField.text = book.title
+        authorTxtField.text = book.author
+        genreTxtField.text = book.genre
+        lengthTxtField.text = book.length
     }
     
     
