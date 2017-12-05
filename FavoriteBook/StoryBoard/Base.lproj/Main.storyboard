@@ -151,6 +151,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="c5c-sm-CzI">
+                            <rect key="frame" x="0.0" y="497.5" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Save"/>
+                        </button>
                         <sections>
                             <tableViewSection headerTitle="Title" id="brn-DV-wBA">
                                 <cells>
@@ -278,6 +283,7 @@
                         <outlet property="authorTxtField" destination="aX4-yz-zl7" id="gKY-bX-Se2"/>
                         <outlet property="genreTxtField" destination="naz-br-0q0" id="8LS-0O-Xga"/>
                         <outlet property="lengthTxtField" destination="z60-SJ-YKt" id="fxi-Wo-eTD"/>
+                        <outlet property="saveButton" destination="c5c-sm-CzI" id="Rl6-fl-Y5S"/>
                         <outlet property="titleTxtField" destination="amX-wA-inN" id="Nll-MM-idt"/>
                     </connections>
                 </tableViewController>
