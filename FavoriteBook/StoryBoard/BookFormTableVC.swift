@@ -8,6 +8,12 @@
 import UIKit
 
 class BookFormTableVC: UITableViewController {
+    
+    @IBOutlet weak var titleTxtField: UITextField!
+    @IBOutlet weak var authorTxtField: UITextField!
+    @IBOutlet weak var genreTxtField: UITextField!
+    @IBOutlet weak var lengthTxtField: UITextField!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
