@@ -73,6 +73,7 @@
 		2FF2772B1FD6D370003FC05F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2F0321CD1FD6DB28000BC9B5 /* BookFormTableVC.swift */,
 				2C5E3E2F1E514D3400C02C5F /* BookFormViewController.swift */,
 				2C5E3E331E514EA700C02C5F /* BookTableViewController.swift */,
 				2FF2772C1FD6D394003FC05F /* Modele */,
@@ -92,7 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				2C5E3E1D1E514CC400C02C5F /* Main.storyboard */,
-				2F0321CD1FD6DB28000BC9B5 /* BookFormTableVC.swift */,
 			);
 			path = StoryBoard;
 			sourceTree = "<group>";
